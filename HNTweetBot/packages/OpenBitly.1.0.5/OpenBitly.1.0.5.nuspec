@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>OpenBitly</id>
+    <version>1.0.5</version>
+    <title>OpenBitly</title>
+    <authors>Simon Rigby</authors>
+    <owners>Simon Rigby</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>https://github.com/levelnis/openbitly</projectUrl>
+    <iconUrl>https://nuget.org/Content/Images/packageDefaultIcon-50x50.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>A Bitly API Wrapper service that uses OAuth 2.0 authentication and T4 templates to make adding new endpoints easy.</description>
+    <summary>Bitly API Wrapper using OAuth 2.0 written in C#.</summary>
+    <releaseNotes>1.0.5 - added GetClickCountOverTime which calls /v3/link/clicks with rollup=false.</releaseNotes>
+    <copyright>Copyright Levelnis 2013</copyright>
+    <language>en-GB</language>
+    <tags>bitly openbitly oauth web api http rest wrapper</tags>
+    <dependencies>
+      <group targetFramework=".NETFramework4.5">
+        <dependency id="Newtonsoft.Json" version="5.0.5" />
+      </group>
+      <group targetFramework=".NETFramework4.0">
+        <dependency id="Hammock" version="1.3.1" />
+      </group>
+    </dependencies>
+    <references>
+      <reference file="OpenBitly.dll" />
+    </references>
+  </metadata>
+</package>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNTweetBot.Console", "HNTweetBot.Console\HNTweetBot.Console.csproj", "{98F361BE-052E-4278-9A81-A0B776BA388F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HNTweetBot.ConsoleWrapper", "HNTweetBot.ConsoleWrapper\HNTweetBot.ConsoleWrapper.csproj", "{793D8B46-3868-4788-B2FB-8F3261186BDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenBitly", "OpenBitly\OpenBitly.csproj", "{022C7AB1-AAD5-4126-B825-2541D17573B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98F361BE-052E-4278-9A81-A0B776BA388F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98F361BE-052E-4278-9A81-A0B776BA388F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98F361BE-052E-4278-9A81-A0B776BA388F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98F361BE-052E-4278-9A81-A0B776BA388F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{793D8B46-3868-4788-B2FB-8F3261186BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{793D8B46-3868-4788-B2FB-8F3261186BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{793D8B46-3868-4788-B2FB-8F3261186BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{793D8B46-3868-4788-B2FB-8F3261186BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{022C7AB1-AAD5-4126-B825-2541D17573B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{022C7AB1-AAD5-4126-B825-2541D17573B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{022C7AB1-AAD5-4126-B825-2541D17573B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{022C7AB1-AAD5-4126-B825-2541D17573B6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
